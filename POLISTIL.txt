@@ -1,0 +1,375 @@
+[default]
+Library=Polistil
+DBName=Polistil
+Scale=1:32
+Unit=cm
+Author=Eraldo Sammuri, URTeam, Danilo Ercoli
+DateRevision=Rev. 4.0, October 2019
+Notes=Added Polistil A239 standard track
+Logo=polistil.jpg
+Object=
+MaxLane=6
+
+[includes]
+file1=polistil_rwborders.inc
+file2=polistil_multilanes.inc
+
+[A8]
+Name=Straight
+Notes=
+Shape=17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16744448
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A27]
+Name=Change Over
+Notes=
+Shape=17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16744448
+Lane1=squiggle,4.4,13.1,20.0
+Lane2=squiggle,13.1,4.4,20.0
+
+[A12]
+Name=Power Straight
+Notes=
+Shape=0,0,10,0,10,-3,20,-3,20,0,30,0,30,17.5,0,17.5
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5767052
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A243]
+Name=Power Straight
+Notes=To be used with Energy Control module
+Shape=0,0,10,0,10,-2,20,-2,20,0,30,0,30,17.5,0,17.5
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5767052
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A26]
+Name=Lap Counter
+Notes=
+Shape=17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16744448
+Texture1=e,arrow,r,0,0,13,1,17,3
+Texture2=e,arrow,r,0,0,13,14.5,17,16.5
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A21]
+Name=Chicane
+Notes=
+Shape=17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16744448
+Lane1=chicane,4.4,3.1,10
+Lane2=chicane,13.1,-3.1,10
+
+[A23]
+Name=Half Straight
+Notes=
+Shape=17.5,15.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16747607
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A216]
+Name=Half Straight
+Notes=To be used with Electronic Counter module
+Shape=0,0,10,0,10,-3,14,-3,14,0,15,0,15,17.5,0,17.5
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5767052
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A24]
+Name=Quarter Straight
+Notes=
+Shape=17.5,7.5
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=16729614
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A219]
+Name=Straight Starter
+Notes=To be used with Electronic Starter module
+Shape=0,0,12,0,12,-5,18,-5,18,0,30,0,30,17.5,0,17.5
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=982798
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A239]
+Name=Flexible Rail
+Notes=It can be squiggled
+Shape=squiggle,17.5,60.0,0,20
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=50212
+Texture1=c,r,idb_border,,22,1,2.4,17.5,5,0,60,17.5
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A14]
+Name=Standard Curve 30°
+Notes=
+Shape=curve,34.0,17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=8523519
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A15]
+Name=Banked Outer Curve 30°
+Notes=
+Shape=curve,34.0,17.5,30.0,b2
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=8523519
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A16]
+Name=Banked Curve 60°
+Notes=
+Shape=curve,17.0,17.5,60.0,b2
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=921343
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A9]
+Name=Standard Curve 60°
+Notes=
+Shape=curve,17.0,17.5,60.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=921343
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[F3110]
+Name=Fleishmann Inner Curve 90° - not a Polistil part 
+Notes=A49 like curve made with Fleishmann F3110 - not a manufacturer part
+Shape=curve,9.5,17.5,90.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5767052
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[F3111]
+Name=Fleishmann Standard Curve - not a Polistil part
+Notes=A9 like curve made with Fleishmann part - not a Polistil part
+Shape=curve,27.5,17.5,45.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=50212
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[F3112]
+Name=Fleishmann Outer Curve - not a Polistil part
+Notes=A14 like curve made with Fleishmann part - not a Polistil part
+Shape=curve,45.5,17.5,45.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5766994
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A49]
+Name=Inner Curve 60°
+Notes=
+Shape=curve,8.5,17.5,60.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=196
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A44]
+Name=Half Inner Curve 15°
+Notes=
+Shape=curve,51,17.5,15.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=951039
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A43]
+Name=Half Inner Curve 30°
+Notes=
+Shape=curve,17.0,17.5,30.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5724159
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A206]
+Name=Box Entrance
+Notes=
+Shape=(0,0)(15,-8.6)(30,0)(30,17.5)(0,17.5)
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=5766994
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+Lane3=3.7,-2.2,30,13.1
+Lane4=11.3,-6.6,30,4.4
+
+[A207]
+Name=Box Exit
+Notes=
+Shape=(0,0)(15,-8.6)(30,0)(30,17.5)(0,17.5)
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=5766994
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+Lane3=0,4.4,18.7,-6.6
+Lane4=0,13.1,26.3,-2.2
+
+[A231]
+Name=Outer Curve 5°
+Notes=
+Shape=curve,136,17.5,5.0
+Equivalent=
+OneWay=
+Frequent=yes
+ColorCoding=5724159
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A209]
+Name=Outside border curve 60°
+Notes=
+Shape=curve,35,5,60.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=8421504
+Texture1=f,idb_border
+
+[A12 RALLY]
+Name=Power Straight Rally
+Notes=
+Shape=0,0,10,0,10,-3,20,-3,20,0,30,0,30,17.5,0,17.5
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=5767052
+Texture1=f,idb_border
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A8 RALLY]
+Name=Straight Rally
+Notes=
+Shape=17.5,30.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=16744448
+Texture1=f,idb_border
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A9 RALLY]
+Name=Standard Curve Rally 60°
+Notes=
+Shape=curve,17.0,17.5,60.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=921343
+Texture1=f,idb_border
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+
+[A9 INNER (CUSTOM)]
+Name=Standard Curve 60° - Inner Lane (Custom)
+Notes=Built cutting a standard A9
+Shape=curve,17.0,8.75,60.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=921343
+Lane1=4.4,4.4
+
+[A9 OUTER (CUSTOM)]
+Name=Standard Curve 60° - Outer Lane (Custom)
+Notes=Built cutting a standard A9
+Shape=curve,25.5,8.75,60.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=8523519
+Lane1=4.4,4.4
+
+[A8 SINGLE (CUSTOM)]
+Name=Straight Single Lane (Custom)
+Notes=Built cutting a standard A8
+Shape=8.75,30.0
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=16744448
+Lane1=4.4,4.4
+
+[2 X A8]
+Name=2 x A8 Track aligner
+Notes=
+Shape=aligner,35,30,2,A8
+Equivalent=
+OneWay=
+Frequent=
+ColorCoding=50339
+Lane1=4.4,4.4
+Lane2=13.1,13.1
+Lane3=21.9,21.9
+Lane4=30.6,30.6
